@@ -13,7 +13,7 @@ export default function Stats({
 
 function Stat({ number, label}) {
   return <section className="stat">
-  <sapn className={`stat__number ${number < 0 ? "stat__number--limit" : ""}`}>{number}</sapn>
+  <span className={`stat__number ${number < 0 ? "stat__number--limit" : ""}`}>{number}</span>
   <h3 className="second-heading">{label}</h3>
 </section>
 }
